@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './styles/constants.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './assets/fonts/OpenSans-Regular.ttf'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

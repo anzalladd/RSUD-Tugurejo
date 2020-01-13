@@ -1,0 +1,21 @@
+:root{
+    /* Gradient */
+    --palette-gradient-green-pasien: linear-gradient(180deg, #2BB372 0%, #2BB372 15.1%, #FFF6C7 100%);
+
+    /* Primary */
+    --palette-primary-green40: #92D050;
+    --palette-primary-green80: #637F26;
+    --palette-primary-orange90: #F96300;
+    
+    /* Section */
+    --palette-section-operasi-primary: #C62326;
+    --palette-section-operasi-secondary: #F4D1D2;
+    --palette-section-visit-primary: #2DA185;
+    --palette-section-visit-seconday: #BCE8D9;
+
+    /* Component */
+    --palette-icon: #2BB272;
+    --palette-error: #CF212A;
+    --palette-success: #44AB4A;
+
+}
