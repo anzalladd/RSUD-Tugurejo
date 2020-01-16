@@ -1,0 +1,3 @@
+.Mui-selected svg path {
+  fill: var(--palette-icon);
+}

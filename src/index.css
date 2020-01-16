@@ -1,6 +1,17 @@
 @font-face {
   font-family: 'OpenSans';
-  src: local('OpenSans'), url('./assets/fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 500;
+  src: url('./assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: 600;
+  src: url('./assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: bold;
+  src: url('./assets/fonts/OpenSans-Bold.ttf') format('truetype');
 }
 body {
   margin: 0;
@@ -10,46 +21,94 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1{
+* {
+  font-family: 'OpenSans';
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
   font-size: 96px;
 }
 
-h2{
+h2 {
+  font-weight: bold;
   font-size: 60px;
 }
 
-h3{
+h3 {
+  font-weight: bold;
   font-size: 48px;
 }
 
-h4{
+h4 {
+  font-weight: bold;
   font-size: 24px;
 }
 
-h5{
+h5 {
+  font-weight: bold;
   font-size: 18px;
 }
 
-h6{
+h6 {
+  font-weight: bold;
   font-size: 16px;
 }
 
-.text--body-16{
+p {
+  font-weight: normal;
+}
+
+.text--body-16 {
   font-size: 16px;
 }
 
-.text--body-14{
+.text--body-14 {
   font-size: 14px;
 }
 
-.text--bold{
+.text--small-12 {
+  font-size: 12px;
+}
+
+.text--normal {
+  font-weight: normal;
+}
+
+.text--medium {
+  font-weight: 600;
+}
+
+.text--bold {
   font-weight: bold;
 }
 
-.text--medium{
-  font-weight: 500;
+.d-flex {
+  display: flex;
 }
 
-.d-flex{
-  display: flex;
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.app-container {
+  padding: 0 16px;
+  overflow-x: hidden;
+}
+
+.card {
+  background-color: white;
+  padding: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
 }

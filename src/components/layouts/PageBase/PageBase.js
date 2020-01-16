@@ -1,11 +1,14 @@
 import React from 'react';
-import style from './style.css';
+import './style.css';
+import BottomDrawer from '../../elements/BottomDrawer';
 
 const PageBase = props => {
   return (
-    <div className={style['container']}>
-      {props.children}
-      <p>owkwok</p>
+    <div className="base">
+      <div className="container">
+        {props.children}
+        <BottomDrawer />
+      </div>
     </div>
   );
 };

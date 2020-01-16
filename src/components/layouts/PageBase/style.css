@@ -1,0 +1,19 @@
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--palette-grey-bg);
+}
+
+@media all and (max-width: 1440px) {
+  .container {
+    max-width: 360px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .container {
+    max-width: 100%;
+  }
+}

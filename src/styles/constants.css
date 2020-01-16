@@ -1,21 +1,35 @@
-:root{
-    /* Gradient */
-    --palette-gradient-green-pasien: linear-gradient(180deg, #2BB372 0%, #2BB372 15.1%, #FFF6C7 100%);
+:root {
+  /* Gradient */
+  --palette-gradient-green-pasien: linear-gradient(
+    180deg,
+    #2bb372 0%,
+    #2bb372 15.1%,
+    #fff6c7 100%
+  );
 
-    /* Primary */
-    --palette-primary-green40: #92D050;
-    --palette-primary-green80: #637F26;
-    --palette-primary-orange90: #F96300;
-    
-    /* Section */
-    --palette-section-operasi-primary: #C62326;
-    --palette-section-operasi-secondary: #F4D1D2;
-    --palette-section-visit-primary: #2DA185;
-    --palette-section-visit-seconday: #BCE8D9;
+  /* Primary */
+  --palette-primary-green40: #92d050;
+  --palette-primary-green80: #637f26;
+  --palette-primary-orange90: #f96300;
 
-    /* Component */
-    --palette-icon: #2BB272;
-    --palette-error: #CF212A;
-    --palette-success: #44AB4A;
+  /* Section */
+  --palette-section-operasi-primary: #c62326;
+  --palette-section-operasi-secondary: #f4d1d2;
+  --palette-section-visit-primary: #2da185;
+  --palette-section-visit-seconday: #bce8d9;
+  --palette-section-background-grey: #f7f7f7;
 
+  /* Component */
+  --palette-icon: #2bb272;
+  --palette-error: #cf212a;
+  --palette-success: #44ab4a;
+
+  /* Black */
+  --palette-black-10: #e8e8e8;
+  --palette-black-60: #a0a4a8;
+  --palette-black-80: #52575c;
+  --palette-black-100: #25282b;
+
+  /* Grey */
+  --palette-grey-bg: #f3f3f3;
 }
